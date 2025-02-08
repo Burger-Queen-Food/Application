@@ -5,12 +5,16 @@ dotenv.config(); // Load environment variables
 
 export const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
-    console.log('MongoDB Connected Successfully!');
+    await mongoose.connect(process.env.MONGO_URI, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
+    console.log(' MongoDB Connected Successfully');
   } catch (error) {
-    console.error('DB Connection Error:', error);
-    process.exit(1); // Exit process with failure
+    console.error(' DB Connection Error:', error);
+    process.exit(1); // Exit the process with failure
   }
 };
+
 
 
