@@ -2,13 +2,13 @@ import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
-import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
-import menu_3 from './menu_3.png'
-import menu_4 from './menu_4.png'
-import menu_5 from './menu_5.png'
-import menu_6 from './menu_6.png'
-import menu_7 from './menu_7.png'
+import menu_1 from './menu_1.jpg'
+import menu_2 from './menu_2.jpg'
+import menu_3 from './menu_3.jpg'
+import menu_4 from './menu_4.jpg'
+import menu_5 from './menu_5.jpg'
+import menu_6 from './menu_6.jpg'
+import menu_7 from './menu_7.jpg'
 import menu_8 from './menu_8.png'
 
 import food_1 from './food_1.png'
@@ -59,6 +59,7 @@ import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
+import MainLogo from './MainLogo.png'
 
 export const assets = {
     logo,
@@ -79,272 +80,301 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
-    parcel_icon
+    parcel_icon,
+    MainLogo
 }
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Classic Burgers",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Cheese Burgers",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Chicken Burgers",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Veggie Burgers",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Double Patty Burgers",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Gourmet Burgers",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Specialty Burgers",
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Kids' Meals Specials",
         menu_image: menu_8
-    }]
+    }
+]
 
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Classic Beef Burger",
         image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        price: 1500,
+        description: "Juicy beef patty with fresh lettuce, tomato, and special sauce.",
+        category: "Classic Burgers"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Cheesy Delight Burger",
         image: food_2,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
+        price: 1800,
+        description: "Loaded with melted cheddar cheese and crispy onions.",
+        category: "Cheese Burgers"
+    },
+    {
         _id: "3",
-        name: "Clover Salad",
+        name: "Grilled Chicken Burger",
         image: food_3,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
+        price: 1600,
+        description: "Tender grilled chicken breast with tangy sauce.",
+        category: "Chicken Burgers"
+    },
+    {
         _id: "4",
-        name: "Chicken Salad",
+        name: "Spicy Veggie Burger",
         image: food_4,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    }, {
+        price: 1400,
+        description: "Crispy veggie patty with spicy sauce and fresh veggies.",
+        category: "Veggie Burgers"
+    },
+    {
         _id: "5",
-        name: "Lasagna Rolls",
+        name: "Double Trouble Burger",
         image: food_5,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
-    }, {
+        price: 2000,
+        description: "Two juicy beef patties with double cheese and secret sauce.",
+        category: "Double Patty Burgers"
+    },
+    {
         _id: "6",
-        name: "Peri Peri Rolls",
+        name: "Gourmet Lamb Burger",
         image: food_6,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
-    }, {
+        price: 1900,
+        description: "Succulent lamb patty with gourmet toppings and aioli sauce.",
+        category: "Gourmet Burgers"
+    },
+    {
         _id: "7",
-        name: "Chicken Rolls",
+        name: "BBQ Bacon Burger",
         image: food_7,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
-    }, {
+        price: 2000,
+        description: "Loaded with smoky BBQ sauce and crispy bacon.",
+        category: "Specialty Burgers"
+    },
+    {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Mini Cheeseburger Meal",
         image: food_8,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
-    }, {
+        price: 1200,
+        description: "Kid-sized cheeseburger with fries and juice.",
+        category: "Kids' Meals"
+    },
+    {
         _id: "9",
-        name: "Ripple Ice Cream",
+        name: "Veggie Delight Wrap",
         image: food_9,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
-    }, {
+        price: 1300,
+        description: "Healthy veggie wrap with hummus and fresh greens.",
+        category: "Veggie Burgers"
+    },
+    {
         _id: "10",
-        name: "Fruit Ice Cream",
+        name: "Spicy Chicken Wings",
         image: food_10,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
-    }, {
+        price: 1700,
+        description: "Crispy chicken wings with a spicy coating.",
+        category: "Chicken Burgers"
+    },
+    {
         _id: "11",
-        name: "Jar Ice Cream",
+        name: "Classic Hot Dog",
         image: food_11,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
-    }, {
+        price: 1400,
+        description: "Grilled hot dog with mustard and ketchup.",
+        category: "Specialty Burgers"
+    },
+    {
         _id: "12",
-        name: "Vanilla Ice Cream",
+        name: "Fish Fillet Burger",
         image: food_12,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        price: 1600,
+        description: "Crispy fish fillet with tartar sauce.",
+        category: "Specialty Burgers"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
+        name: "Gourmet Mushroom Burger",
         image: food_13,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        price: 2000,
+        description: "Rich mushroom sauce over a juicy beef patty.",
+        category: "Gourmet Burgers"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
+        name: "Turkey Club Burger",
         image: food_14,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
-    }, {
+        price: 1800,
+        description: "Turkey patty with bacon and avocado.",
+        category: "Specialty Burgers"
+    },
+    {
         _id: "15",
-        name: "Grilled Sandwich",
+        name: "Classic Breakfast Burger",
         image: food_15,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
-    }, {
+        price: 1900,
+        description: "Burger with fried egg and crispy bacon.",
+        category: "Classic Burgers"
+    },
+    {
         _id: "16",
-        name: "Bread Sandwich",
+        name: "Cheddar Melt Burger",
         image: food_16,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
-    }, {
+        price: 2100,
+        description: "Loaded with melted cheddar cheese and caramelized onions.",
+        category: "Cheese Burgers"
+    },
+    {
         _id: "17",
-        name: "Cup Cake",
+        name: "BBQ Chicken Burger",
         image: food_17,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
+        price: 1700,
+        description: "Grilled chicken breast with smoky BBQ sauce.",
+        category: "Chicken Burgers"
+    },
+    {
         _id: "18",
-        name: "Vegan Cake",
+        name: "Vegan Power Burger",
         image: food_18,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
+        price: 2200,
+        description: "Plant-based patty with vegan cheese and sauce.",
+        category: "Veggie Burgers"
+    },
+    {
         _id: "19",
-        name: "Butterscotch Cake",
+        name: "Triple Beef Stacker",
         image: food_19,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
+        price: 2500,
+        description: "Triple beef patties with triple cheese and special sauce.",
+        category: "Double Patty Burgers"
+    },
+    {
         _id: "20",
-        name: "Sliced Cake",
+        name: "Lamb Supreme Burger",
         image: food_20,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
-    }, {
+        price: 2300,
+        description: "Premium lamb patty with gourmet toppings.",
+        category: "Gourmet Burgers"
+    },
+    {
         _id: "21",
-        name: "Garlic Mushroom ",
+        name: "Tex-Mex Burger",
         image: food_21,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
+        price: 2000,
+        description: "Spicy Tex-Mex flavors with jalapenos and salsa.",
+        category: "Specialty Burgers"
+    },
+    {
         _id: "22",
-        name: "Fried Cauliflower",
+        name: "Mini Veggie Wrap",
         image: food_22,
-        price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
+        price: 1000,
+        description: "Kid-sized wrap with fresh veggies and hummus.",
+        category: "Kids' Meals"
+    },
+    {
         _id: "23",
-        name: "Mix Veg Pulao",
+        name: "Avocado Delight Burger",
         image: food_23,
-        price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
-    }, {
+        price: 2100,
+        description: "Burger topped with creamy avocado and fresh greens.",
+        category: "Gourmet Burgers"
+    },
+    {
         _id: "24",
-        name: "Rice Zucchini",
+        name: "Ultimate BBQ Burger",
         image: food_24,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        price: 2400,
+        description: "Beef patty smothered in BBQ sauce with crispy onions.",
+        category: "Specialty Burgers"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
+        name: "Crispy Chicken Strips",
         image: food_25,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        price: 1500,
+        description: "Golden crispy chicken strips served with dipping sauce.",
+        category: "Chicken Burgers"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
+        name: "Mushroom Lover's Burger",
         image: food_26,
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
+        price: 2200,
+        description: "Mushroom sauce with Swiss cheese on a gourmet patty.",
+        category: "Gourmet Burgers"
+    },
+    {
         _id: "27",
-        name: "Creamy Pasta",
+        name: "Sweet Chili Chicken Burger",
         image: food_27,
-        price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
+        price: 1900,
+        description: "Sweet and spicy chili glaze over crispy chicken.",
+        category: "Chicken Burgers"
+    },
+    {
         _id: "28",
-        name: "Chicken Pasta",
+        name: "Bacon Lover's Delight",
         image: food_28,
-        price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
-    }, {
+        price: 2300,
+        description: "Loaded with crispy bacon and special sauce.",
+        category: "Specialty Burgers"
+    },
+    {
         _id: "29",
-        name: "Buttter Noodles",
+        name: "Kids' Chicken Nuggets Meal",
         image: food_29,
-        price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
+        price: 1100,
+        description: "Kid-sized chicken nuggets with fries and juice.",
+        category: "Kids' Meals"
+    },
+    {
         _id: "30",
-        name: "Veg Noodles",
+        name: "Classic Cheese Lovers Burger",
         image: food_30,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
+        price: 2000,
+        description: "Double cheese delight for classic burger fans.",
+        category: "Cheese Burgers"
+    },
+    {
         _id: "31",
-        name: "Somen Noodles",
+        name: "Grilled Veggie Supreme",
         image: food_31,
-        price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
-    }, {
+        price: 1600,
+        description: "Grilled vegetables and hummus in a hearty burger.",
+        category: "Veggie Burgers"
+    },
+    {
         _id: "32",
-        name: "Cooked Noodles",
+        name: "Double Stack Classic Burger",
         image: food_32,
-        price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        price: 2200,
+        description: "Double beef patty with double cheddar cheese.",
+        category: "Double Patty Burgers"
     }
 ]
+
