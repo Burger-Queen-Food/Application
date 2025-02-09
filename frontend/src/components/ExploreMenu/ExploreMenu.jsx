@@ -7,13 +7,10 @@ import { menu_list } from '../../assets/assets';
 const ExploreMenu = ({ category, setCategory }) => {
   return (
     <div className="explore-menu" id="explore-menu">
-      <h1>Explore our menu</h1>
+      <h1>Discover Our Delicious Menu</h1>
 
       <p className="explore-menu-text">
-        Choose from a diverse menu featuring a delectable array of dishes
-        crafted with the finest ingredients and culinary expertise. Our misson
-        is to satisfy your cravings and elevate your dining expreince, one
-        delicous meal at a time.
+      Savor the ultimate burger experience with our mouth-watering menu crafted using the finest ingredients and expert grilling techniques. Our mission is to satisfy your cravings and elevate your dining journey, one delicious burger at a time.
       </p>
 
       <div className="explore-menu-list">
