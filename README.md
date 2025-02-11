@@ -57,5 +57,4 @@ Works on both mobile and desktop devices.
 
 ### Clone the repository
 ```sh
-git clone https://github.com/your-username/burger-queen-shop.git
-cd burger-queen-shop
+git clone https://github.com/Burger-Queen-Food/Application.git
