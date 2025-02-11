@@ -9,14 +9,9 @@ const Footer = () => {
     <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
-
+         
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eaque
-            quae molestiae voluptatibus exercitationem deleniti omnis iste iure!
-            Aut iusto quis inventore assumenda, nihil sed magnam expedita
-            mollitia nisi eos corporis, repellendus dolorem quas sapiente
-            voluptas.
+          At BurgerQueen, we bring your favorite meals right to your doorstep. Experience fast delivery, fresh ingredients, and exceptional service.
           </p>
 
           <div className="footer-social-icons">
@@ -41,14 +36,14 @@ const Footer = () => {
           <h2>GET IN TOUCH</h2>
 
           <ul>
-            <li>+90-212-336-3636</li>
-            <li>contact@tomato.com</li>
+            <li>011-234-5678</li>
+            <li>contact@BurgerQueen.lk</li>
           </ul>
         </div>
       </div>
       <hr />
       <p className="footer-copy-right">
-        Copyright 2024 © Tomato.com - All Right Reserved.
+        Copyright 2024 © BurgerQueen.lk - All Right Reserved.
       </p>
     </div>
   );
